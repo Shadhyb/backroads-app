@@ -16,7 +16,7 @@ const Tours = () => {
               <img src={image} className="tour-img" alt=''/>
               <p className="tour-date">{date}</p>
             </div>
-            <div className={text}>
+            <div className='tour-info'>
               <div className="tour-title">
                 <h4>{title}</h4>
               </div>
